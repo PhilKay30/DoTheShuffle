@@ -18,11 +18,18 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="deck.c" />
+    <ClCompile Include="main.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="deck.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{8C31F934-5853-4000-8365-CD100DE839ED}</ProjectGuid>
+    <ProjectGuid>{532B99EF-F588-418B-87C0-96378EFD3C12}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>CShuffling</RootNamespace>
+    <RootNamespace>Shuffle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,21 +153,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="consoleIO.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="deck.c" />
-    <ClCompile Include="shuffler.c" />
-    <ClCompile Include="shuffleTestHarness.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="appContext.h" />
-    <ClInclude Include="consoleIO.h" />
-    <ClInclude Include="deck.h" />
-    <ClInclude Include="main.h" />
-    <ClInclude Include="shuffler.h" />
-    <ClInclude Include="shuffleTestHarness.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
